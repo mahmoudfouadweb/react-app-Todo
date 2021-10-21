@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
-import Menu from './components/MenuComponent'
-import { Navbar, NavbarBrand } from 'reactstrap'
-import './App.css'
-import { DISHES } from './shared/dishes'
 
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    
-  }
+
+
   render() {
     return (
       <> 
-      
+      <h1>Design Is My life</h1>
+      <p>Graphic Design And Web are far more than a job</p>
+      <ul>
+        <li>Facebook</li>
+        <li>Youtube</li>
+        <li>Instagram</li>
+      </ul>
       </>
     );
   }
