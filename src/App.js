@@ -1,19 +1,17 @@
 import React, { Component } from 'react'
-
+import Header from './Components/Header'
+import Text from './Components/Text'
+import Social from './Components/Social'
 
 class App extends Component {
 
 
   render() {
     return (
-      <> 
-      <h1>Design Is My life</h1>
-      <p>Graphic Design And Web are far more than a job</p>
-      <ul>
-        <li>Facebook</li>
-        <li>Youtube</li>
-        <li>Instagram</li>
-      </ul>
+      <>
+        <Header />
+        <Text />
+        <Social />
       </>
     );
   }
